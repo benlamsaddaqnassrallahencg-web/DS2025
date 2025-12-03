@@ -1,0 +1,26 @@
+Script vidéo (5-7 minutes) - Présentation du projet churn
+
+1) Introduction (30s)
+- Bonjour, je présente un projet de prédiction du churn client pour une entreprise de télécommunications.
+- Problème: les clients partent et cela coûte cher. Objectif: identifier les clients à risque.
+
+2) Données (45s)
+- Dataset Telco Customer Churn (variables: tenure, MonthlyCharges, TotalCharges, Contract, PaymentMethod...).
+- Nettoyage: conversion TotalCharges, imputation, encodage.
+
+3) Méthode (60s)
+- EDA pour comprendre les variables.
+- Modèles testés: Logistic Regression, Random Forest, Gradient Boosting.
+- Validation: cross-validation stratifiée et GridSearch.
+
+4) Résultats (60s)
+- Meilleur modèle: Random Forest (expliquer métriques: Accuracy, F1, AUC).
+- Interprétation métier: clients avec contrat mensuel et faible tenure plus à risque.
+
+5) Recommandations (45s)
+- Campagnes de rétention ciblées pour clients à faible tenure.
+- Offres promotionnelles et suivi personnalisé.
+
+6) Conclusion (30s)
+- Résumé de la valeur ajoutée et pistes d'amélioration (SMOTE, features supplémentaires).
+- Remerciements.
